@@ -1,5 +1,6 @@
 package sh.update.android101_1;
 
+import android.graphics.Typeface;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.widget.TextView;
@@ -10,6 +11,7 @@ public class Android101Helper {
 	public Android101Helper(TextView textview) {
 		mTextView = textview;
 		mTextView.setMovementMethod(new ScrollingMovementMethod());
+		mTextView.setTypeface(Typeface.MONOSPACE);
 	}
 	
 	/**
